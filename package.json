@@ -1,12 +1,12 @@
 {
-  "name": "pwa-elm-spa-sample",
+  "name": "elm-spa-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel --public-url /pwa-elm-spa-sample/ src/index.html",
-    "prebuild": "rimraf src.* manifest.*.webmanifest",
-    "build": "parcel build -d ./docs --public-url /pwa-elm-spa-sample/ src/index.html"
+    "start": "parcel --public-url / src/index.html",
+    "prebuild": "rimraf src.*",
+    "build": "parcel build -d ./docs --public-url / src/index.html"
   },
   "author": "",
   "license": "MIT",
